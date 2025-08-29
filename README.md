@@ -20,9 +20,13 @@ It includes an exploratory data analysis (EDA) and performance benchmarks for Po
 ---
 
 ### **Jupyter Notebooks**
-1. **`1_eda_analysis.ipynb`** — Exploratory data analysis of daily ridership, traffic, and congestion relief zone datasets.
-2. **`2_postgresql_benchmark.ipynb`** — PostgreSQL implementation and benchmarking with the datasets.
-3. **`3_elasticsearch_benchmark.ipynb`** — Elasticsearch implementation and benchmarking with the datasets.
-4. **`4_mysql_benchmark.ipynb`** — MySQL implementation and benchmarking with the datasets.
+1. **`postgresql_benchmark.ipynb`** — PostgreSQL implementation and benchmarking with the datasets.
+2. **`elasticsearch_benchmark.ipynb`** — Elasticsearch implementation and benchmarking with the datasets.
+3. **`mysql_benchmark.ipynb`** — MySQL implementation and benchmarking with the datasets.
+
+### **Docker files**
+1. **`docker-compose-postgres.yml`** – PostgreSQL docker container to connect to PostgreSQL server.
+2. **`docker-compose-elasticsearch.yml`** – Elasticsearch docker container to connect to Elasticsearch server.
+3. **`docker-compose-mysql.yml`** – MySQL docker container to connect to MySQL server.
 
 ---
