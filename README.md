@@ -1,7 +1,8 @@
 # NYC Congestion Pricing Analysis
 
 This repository contains an analysis of the impact of New York City's Congestion Relief Zone on vehicle entries, MTA ridership, and traffic patterns.  
-It includes an exploratory data analysis (EDA) and performance benchmarks for PostgreSQL, Elasticsearch, and MySQL using the provided datasets.
+
+It includes performance benchmarks for PostgreSQL, Elasticsearch, and MySQL using the provided datasets and docker compose files.
 
 ---
 
