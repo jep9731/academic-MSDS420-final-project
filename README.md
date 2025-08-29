@@ -8,17 +8,17 @@ It includes an exploratory data analysis (EDA) and performance benchmarks for Po
 ## 📂 Contents
 
 ### **Datasets**
-- `UPDATED_MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_20250823.csv.zip`  
+- `UPDATED_MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_20250823.csv.gzip`  
   Vehicle entry counts into the Congestion Relief Zone by date, time, vehicle class, and toll period.
 
 - `UPDATED_MTA_Daily_Ridership_and_Traffic__Beginning_2020_20250823.csv.zip`  
   Daily MTA ridership traffic counts from 2020–2025.
 
-- `UPDATED MTA_Bridges_and_Tunnels_Hourly_Crossings__Beginning_2019_20250823.csv.zip`  
+- `UPDATED MTA_Bridges_and_Tunnels_Hourly_Crossings__Beginning_2019_20250823.csv.gzip`  
   Hourly bridge and tunnel crossing traffic counts from 2019–2025.
 
-- `nyc_congestion_datasets.json`
-  Necessary to run Elasticsearch Jupyter notebook file.
+- `nyc_congestion_dataset.json`  
+  Necessary to run `ElasticSearch_final_project.ipynb` file.
 ---
 
 ### **Jupyter Notebooks**
