@@ -24,12 +24,12 @@ It includes performance benchmarks for PostgreSQL (Kelsey Kwon), ElasticSearch (
 
 ### **Jupyter Notebooks**
 1. **`PostgreSQL_final_project.ipynb`** — PostgreSQL implementation and benchmarking with the datasets.
-2. **`ElasticSearch_final_project.ipynb`** — Elasticsearch implementation and benchmarking with the datasets.
+2. **`ElasticSearch_final_project.ipynb`** — ElasticSearch implementation and benchmarking with the datasets.
 3. **`MySQL_benchmark.ipynb`** — MySQL implementation and benchmarking with the datasets.
 
 ### **Docker files**
 1. **`docker-compose-postgres.yml`** – PostgreSQL docker container to connect to PostgreSQL server.
-2. **`docker-compose-elasticsearch.yml`** – Elasticsearch docker container to connect to Elasticsearch server.
+2. **`docker-compose-elasticsearch.yml`** – ElasticSearch docker container to connect to ElasticSearch server.
 3. **`docker-compose-mysql.yml`** – MySQL docker container to connect to MySQL server.
 
 ---
