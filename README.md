@@ -17,12 +17,14 @@ It includes an exploratory data analysis (EDA) and performance benchmarks for Po
 - `UPDATED MTA_Bridges_and_Tunnels_Hourly_Crossings__Beginning_2019_20250823.csv`  
   Hourly bridge and tunnel crossing traffic counts from 2019–2025.
 
+- `nyc_congestion_datasets.json`
+  Necessary to run Elasticsearch Jupyter notebook file.
 ---
 
 ### **Jupyter Notebooks**
-1. **`postgresql_benchmark.ipynb`** — PostgreSQL implementation and benchmarking with the datasets.
-2. **`elasticsearch_benchmark.ipynb`** — Elasticsearch implementation and benchmarking with the datasets.
-3. **`mysql_benchmark.ipynb`** — MySQL implementation and benchmarking with the datasets.
+1. **`PostgreSQL_final_project.ipynb`** — PostgreSQL implementation and benchmarking with the datasets.
+2. **`ElasticSearch_final_project.ipynb`** — Elasticsearch implementation and benchmarking with the datasets.
+3. **`MySQL_benchmark.ipynb`** — MySQL implementation and benchmarking with the datasets.
 
 ### **Docker files**
 1. **`docker-compose-postgres.yml`** – PostgreSQL docker container to connect to PostgreSQL server.
