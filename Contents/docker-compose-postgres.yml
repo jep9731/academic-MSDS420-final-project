@@ -1,0 +1,21 @@
+  services:
+    db:
+      image: msds420/postgres-14.11-onmart:multi
+      restart: always
+      container_name: finalproject
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: postgres
+        PGDATA: /var/lib/postgresql/data/finalproject_data
+      networks:
+        - psql
+      ports:
+        - "5439:5432"  # Expose PostgreSQL port
+      volumes:
+        - /Users/kelseykwon/Final_Project:/var/lib/postgresql/data
+        - /Users/kelseykwon/Final_Project/Datasets:/datasets
+        - /Users/kelseykwon/Final_Project/initdb:/docker-entrypoint-initdb.d
+  networks:
+    psql:
+      driver: bridge

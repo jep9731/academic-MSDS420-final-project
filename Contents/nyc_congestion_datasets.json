@@ -1,0 +1,17 @@
+[
+  {
+    "csv_path": "UPDATED MTA_Daily_Ridership_and_Traffic__Beginning_2020_20250823_final.csv",
+    "index_name": "daily_ridership",
+    "columns": ["Date", "Mode", "Count"]
+  },
+  {
+    "csv_path": "UPDATED MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_20250823.csv",
+    "index_name": "crz",
+    "columns": ["Toll Date", "Time Period", "Vehicle Class", "CRZ Entries"]
+  },
+  {
+    "csv_path": "UPDATED MTA_Bridges_and_Tunnels_Hourly_Crossings__Beginning_2019_20250823.csv",
+    "index_name": "tunnel_bridge_crossing",
+    "columns": ["Date", "Direction", "Traffic Count"]
+  }
+]

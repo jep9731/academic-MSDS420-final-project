@@ -1,0 +1,17 @@
+services: 
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: benchmarkdb
+      MYSQL_ROOT_HOST: "%"
+    ports:
+      - "3307:3306"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
