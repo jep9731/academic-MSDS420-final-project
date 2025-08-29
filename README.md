@@ -33,3 +33,13 @@ It includes performance benchmarks for PostgreSQL, Elasticsearch, and MySQL usin
 3. **`docker-compose-mysql.yml`** – MySQL docker container to connect to MySQL server.
 
 ---
+
+## Run Code
+To run the code, follow these steps:
+1. Download all the files in the `Contents` folder.
+2. Download & install [Docker Desktop](https://www.docker.com/products/docker-desktop/) on your machine.
+3. Ensure the necessary files are within the same folder as the Jupyter Notebooks.
+4. Unzip compressed files.
+5. Update necessary file paths in the Jupyter Notebooks to ensure they run smoothly.
+6. Uncomment any `!pip install` lines to install necessary modules.
+7. Run the code.
