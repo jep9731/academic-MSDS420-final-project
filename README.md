@@ -2,7 +2,7 @@
 
 This repository contains an analysis of the impact of New York City's Congestion Relief Zone on vehicle entries, MTA ridership, and traffic patterns.  
 
-It includes performance benchmarks for PostgreSQL, Elasticsearch, and MySQL using the provided datasets and docker compose files.
+It includes performance benchmarks for PostgreSQL (Kelsey Kwon), Elasticsearch (Anna Prunty-Burkart), and MySQL (Joshua Pasaye) using the provided datasets and docker compose files.
 
 ---
 
